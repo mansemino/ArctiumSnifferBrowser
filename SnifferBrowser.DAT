@@ -85,6 +85,8 @@
 [SMSG]MoveSetSwimSpeed=0x122A
 [SMSG]MoveSetFlightSpeed=0x038F
 [SMSG]MoveTeleport=0x0F39
+[SMSG]MoveRoot=0x060B
+[SMSG]MoveUnroot=0x060C
 [SMSG]GossipMessage=0x1944
 [SMSG]SendKnownSpells=0x18C5
 [SMSG]AuthResponse=0x0101
