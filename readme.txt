@@ -16,7 +16,14 @@ It's coded using Embarcadero Studio C++, so probably you'll need some dlls (not 
 If so, get them from here: http://fbe.am/jue
 or here: http://www.4shared.com/zip/Ac3pw7Ab/SnifferBrowser_dlls.html
 
-Updated:
+Updates:
+
+- Basic AuthSession & AddonInfo packet parser
+- ESC key can be used now to close the auxiliary windows
+- Universal Client patcher for 5.3.x clients (both x32 & x64).
+	. Click "Tools -> Client Patcher" and select your client;
+	. The browser will autodetect build & architecture and it will create Wow_Patched.exe/Wow-64_Patched.exe to be used with Arctium.
+
 - Get offsets for every opcode (constructor, handler, destructor)
 - Export handlers' offsets to rename IDA DB with scripts
 - Calculator por CMSGS GUID indexes
