@@ -1,4 +1,4 @@
-Basic and rough sniffer dump browser.
+Basic and fancy sniffer dump browser, parser & gatherer.
 
 Open your PacketDump.XXXXXX file to inspect, search, export and analize data.
 Right click on table data to interact with the packets.
@@ -17,6 +17,10 @@ If so, get them from here: http://fbe.am/jue
 or here: http://www.4shared.com/zip/Ac3pw7Ab/SnifferBrowser_dlls.html
 
 Updates:
+- Added gatherer for 'gameobject_stats' table (just open your dumps, click 'Tools' -> 'DB Gatherer' and select 'Game Objects stats' from the combobox; Give a name for the file and you're done!
+- *new feature* Gatherer module (under tools): You can create Arctium SQL file with data for several tables.
+- Changed some icons for popup menus
+- Parser for QueryGameObject packets
 - Updated Opcode Offsets to 5.3.0.17055 (universal patcher still works! :P)
 - Parser for NPCText packets
 - Pressing "DEL" key on main table will erase all packets of the same kind as the selected one
@@ -34,4 +38,3 @@ Updates:
 
 - Get offsets for every opcode (constructor, handler, destructor)
 - Export handlers' offsets to rename IDA DB with scripts
-- Calculator por CMSGS GUID indexes
