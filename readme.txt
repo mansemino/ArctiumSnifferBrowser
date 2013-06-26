@@ -17,6 +17,8 @@ If so, get them from here: http://fbe.am/jue
 or here: http://www.4shared.com/zip/Ac3pw7Ab/SnifferBrowser_dlls.html
 
 Updates:
+- Added parser for CliQuestRequest & QuestResponse, and Gatherer for QuestResponse.
+- Added SQL create table for the 3 quest tables.
 - Added gatherer for 'gameobject_stats' table (just open your dumps, click 'Tools' -> 'DB Gatherer' and select 'Game Objects stats' from the combobox; Give a name for the file and you're done!
 - *new feature* Gatherer module (under tools): You can create Arctium SQL file with data for several tables.
 - Changed some icons for popup menus
