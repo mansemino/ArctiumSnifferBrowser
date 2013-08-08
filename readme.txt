@@ -17,6 +17,7 @@ If so, get them from here: http://fbe.am/jue
 or here: http://www.4shared.com/zip/Ac3pw7Ab/SnifferBrowser_dlls.html
 
 Updates:
+- Changed the address module: Only CliGet/CliPut direct address will be used, two fields for cmsg/smsg with same opcode number. Setup option "export only handler offsets" deleted (Constructor/Destructor no used anymore); Name format for export to IDA rename file changed.
 - Added parser for Who & CliWhoRequest opcodes
 - Added offsets for connection opcodes (thanks to SgtFatality & Destalker for point out it to me)
 - Fixed a crash when exporting address names for IDA
