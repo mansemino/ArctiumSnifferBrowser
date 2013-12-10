@@ -6,7 +6,7 @@ You can export selected data to SQL, CSV or Arctium formats, to manage it as you
 
 It has some other features and maybe it'll improve soon:
 
-. You can patch your 5.4.1.x client (any architecture, any build) to use it with Arctium Server
+[. You can patch your 5.4.2.x client (any architecture, any build) to use it with Arctium Server] Not done yet
 . You can get offsets for CliGet/CliPut handlers
 . You can export these offsets to TXT to import from IDA
 . All the features for the packets as ever (filtering, searching, exporting, etc.)
@@ -25,10 +25,7 @@ or here: http://www.4shared.com/zip/Ac3pw7Ab/SnifferBrowser_dlls.html
 
 Updates:
 
-- Updated to add parsers for several packets (no gatherer yet)
-  . ChatMessageAfk, ChatMessageDnd, ChatMessageSay, ChatMessageYell, ChatMessageWhisper, LogXPGain, LogoutResponse, LogoutInstant, MoveUpdate
-  . Full handler offsets for 5.4.1.17538
-- Updated to support 5.4.1.17538 retail client
+- Updated to support 5.4.2.17658 live build data
   . Parser/Gatherer module disabled atm (I'm updating the structs :P)
   . Same for details on packets: Only RAW data is shown
-- Added some opcodes from Arctium Server to SnifferParser.DAT
+- Added some opcodes to SnifferParser.DAT
